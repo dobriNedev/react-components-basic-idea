@@ -1,0 +1,11 @@
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+
+.display {
+  display: flex;
+  justify-content:center;
+  background-color: rgb(194, 240, 240);
+}

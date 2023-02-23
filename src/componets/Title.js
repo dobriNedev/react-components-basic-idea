@@ -1,6 +1,6 @@
 const Title = () => {
     return (
-        <h1>Testing componets and props</h1>
+        <h1 className="title">Testing componets and props</h1>
     );
 };
 

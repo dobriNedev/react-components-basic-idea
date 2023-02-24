@@ -1,7 +1,8 @@
-const Display = () => {
+
+const Display = ({ value }) => {
     return (
-        <div className="display">
-            <span>Count: {}</span>
+        <div className="display" mode="single" max={70}>
+            Value:{value}
         </div>
     );
 };

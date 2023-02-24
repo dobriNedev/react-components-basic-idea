@@ -8,14 +8,6 @@
   justify-content: center;
   background-color: blanchedalmond;
 }
-
-.display {
-  display: flex;
-  justify-content:center;
-  background-color: rgb(194, 240, 240);
-}
-
-justify-content: space-evenly;
   
   background-color: hotpink;
   border-style: solid;
@@ -28,6 +20,20 @@ justify-content: space-evenly;
   padding: 10px;
   border-radius: 10px;
   background-color: #b65959;
+}
 
+.display {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: antiquewhite;
+  font-weight: bold;
+  box-sizing: border-box;
 }
 

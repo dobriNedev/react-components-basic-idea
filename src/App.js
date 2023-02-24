@@ -1,23 +1,24 @@
 import './App.css';
+import Button from './componets/Button';
+import ButtonContainer from './componets/ButtonsContainer';
 import CalculatorContainer from './componets/CalculatorContainer';
-import DecrementBtn from './componets/DecrementButton';
+
 import Display from './componets/Display';
-import IncrementBtn from './componets/IncrementButton';
-import Title from './componets/Title';
 
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
+    
      
-    <Title />
+   
 
-    <CalculatorContainer />
-    <br></br>
-    <Display />
-    <IncrementBtn />
-    <DecrementBtn />
-    </div>
+    <CalculatorContainer>
+      <Display value="0" />
+      <ButtonContainer>
+        <Button className=" " value="0" onClick={()=> {console.log("button clicked!");}} />
+      </ButtonContainer>
+    </CalculatorContainer>
   );
 }
 

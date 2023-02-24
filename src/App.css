@@ -23,7 +23,7 @@
   width: 100%;
   margin-bottom: 10px;
   padding: 0 10px;
-  background-color: blueviolet;
+  background-color: rgb(127, 55, 128);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -40,4 +40,28 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(235, 141, 211);
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(233, 20, 180);
+}
+
+.equals {
+  grid-column: 3/5;
+  background-color: rgb(192, 211, 192);
+}
+
+.equals:hover {
+  background-color: rgb(110, 232, 110);
 }

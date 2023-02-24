@@ -15,7 +15,6 @@ function App() {
     <CalculatorContainer />
     <br></br>
     <Display />
-
     <IncrementBtn />
     <DecrementBtn />
     </div>

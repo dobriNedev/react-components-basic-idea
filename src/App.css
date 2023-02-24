@@ -1,3 +1,8 @@
+
+
+
+
+/*
 .title {
   display: flex;
   justify-content: center;
@@ -10,14 +15,19 @@
   background-color: rgb(194, 240, 240);
 }
 
-.calculator-container {
-  display: flex;
-  justify-content: space-evenly;
+justify-content: space-evenly;
   
   background-color: hotpink;
   border-style: solid;
   border-width: 2px;
   border-radius: 6px;
+*/
+.calculator-container {
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #b65959;
 
 }
 
